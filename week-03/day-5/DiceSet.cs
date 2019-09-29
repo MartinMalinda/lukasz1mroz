@@ -16,18 +16,6 @@ namespace Dice
             return dice;
         }
 
-        // Unnessesary method ?
-        public int[] GetCurrent()
-        {
-            return dice;
-        }
-
-        // Unnessesary method ?
-        public int GetCurrent(int i)
-        {
-            return dice[i];
-        }
-
         public void ShowAll ()
         {
             for (int i = 0; i < dice.Length; i++)
@@ -35,21 +23,6 @@ namespace Dice
                 Console.Write(dice[i] + " ");
             }
             Console.WriteLine();
-        }
-
-        // Unnessesary method ?
-        public void Reroll()
-        {
-            for (int i = 0; i < dice.Length; i++)
-            {
-                dice[i] = randomValue.Next(1, 7);
-            }
-        }
-
-        // Unnessesary method ?
-        public void Reroll(int k)
-        {
-            dice[k] = new Random().Next(1, 7);
         }
 
         public void RerollAllNon6()
