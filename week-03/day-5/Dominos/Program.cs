@@ -3,22 +3,22 @@ using System.Collections.Generic;
 
 namespace Domino
 {
-    public class Dominoes
+    public class Dominos
     {
         public static void Main(string[] args)
         {
-            var dominoes = InitializeDominoes();
+            var dominos = InitializeDominos();
             // You have the list of Dominoes
             // Order them into one snake where the adjacent dominoes have the same numbers on their adjacent sides
             // Create a function to write the dominous to the console in the following format
             // eg: [2, 4], [4, 3], [3, 5] ...
 
-            WriteDominoes(dominoes);
+            WriteDominos(dominos);
         }
 
-        public static List<Domino> InitializeDominoes()
+        public static List<Domino> InitializeDominos()
         {
-            var dominoes = new List<Domino>();
+            var dominos = new List<Domino>();
             dominoes.Add(new Domino(5, 2));
             dominoes.Add(new Domino(4, 6));
             dominoes.Add(new Domino(1, 5));
@@ -34,26 +34,26 @@ namespace Domino
             Console.WriteLine($"[{values[0]}, {values[1]}], ");
         }
 
-        public static void WriteDominoes(List<Domino> dominoes)
+        public static void WriteDominos(List<Domino> dominos)
         {
-            WriteDomino(dominoes[0]);
+            WriteDomino(dominos[0]);
 
             int currentDomino = 0;
             int k = 0;
             int[] dominoValues =  new int[2];
             int[] nextDominoValues = new int[2];
 
-            for (int dominoNumber = 0; dominoNumber < dominoes.Count -2; dominoNumber++)
+            for (int dominoNumber = 0; dominoNumber < dominos.Count -2; dominoNumber++)
             {
-                dominoValues = dominoes[currentDomino].GetValues();
-                nextDominoValues = dominoes[currentDomino + 1].GetValues();
+                dominoValues = dominos[currentDomino].GetValues();
+                nextDominoValues = dominos[currentDomino + 1].GetValues();
 
                 while (dominoValues[1] != nextDominoValues[0])
                 {
-                    nextDominoValues = dominoes[k].GetValues();
+                    nextDominoValues = dominos[k].GetValues();
                     k++;
                 }
-                WriteDomino(dominoes[k - 1]);
+                WriteDomino(dominos[k - 1]);
                 currentDomino = k - 1;
                 k = 0;
             }
