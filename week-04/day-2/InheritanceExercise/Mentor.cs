@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SampleProject
+namespace InheritanceExercise
 {
     class Mentor : Person
     {
