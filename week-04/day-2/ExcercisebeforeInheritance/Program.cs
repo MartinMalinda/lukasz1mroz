@@ -41,28 +41,28 @@ namespace SampleProject
                 sponsor.Hire();
             }
 
-            foreach (var person in people)
+            foreach (var persona in people)
             {
-                person.Introduce();
-                person.GetGoal();
+                persona.Introduce();
+                persona.GetGoal();
             }
 
             foreach (var studenta in students)
             {
-                student.Introduce();
-                student.GetGoal();
+                studenta.Introduce();
+                studenta.GetGoal();
             }
 
             foreach (var mentora in mentors)
             {
-                mentor.Introduce();
-                mentor.GetGoal();
+                mentora.Introduce();
+                mentora.GetGoal();
             }
 
             foreach (var sponsora in sponsors)
             {
-                sponsor.Introduce();
-                sponsor.GetGoal();
+                sponsora.Introduce();
+                sponsora.GetGoal();
             }
         }
     }
