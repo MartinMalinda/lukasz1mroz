@@ -1,0 +1,4 @@
+C:\Users\esycr\Downloads\Linq\Linq\ACtionFuncdPredicate\obj\Debug\netcoreapp2.1\ActionFuncdPredicate.csprojAssemblyReference.cache
+C:\Users\esycr\Downloads\Linq\Linq\ACtionFuncdPredicate\obj\Debug\netcoreapp2.1\ActionFuncdPredicate.csproj.CoreCompileInputs.cache
+C:\Users\esycr\Downloads\Linq\Linq\ACtionFuncdPredicate\obj\Debug\netcoreapp2.1\ActionFuncdPredicate.AssemblyInfoInputs.cache
+C:\Users\esycr\Downloads\Linq\Linq\ACtionFuncdPredicate\obj\Debug\netcoreapp2.1\ActionFuncdPredicate.AssemblyInfo.cs
