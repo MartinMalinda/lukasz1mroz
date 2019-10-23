@@ -13,15 +13,15 @@ namespace NumberAdder
             Console.WriteLine(powerN(3, 5)); 
         }
 
-        static int powerN(int baseN, int power)
+        static int powerN(int baseN, int n)
         {
-            if (power == 0)
+            if (n == 0)
             {
                 return 1;
             }
             else
             {
-                return baseN * powerN(baseN, power - 1);
+                return baseN * powerN(baseN, n - 1);
 
             }
         }
