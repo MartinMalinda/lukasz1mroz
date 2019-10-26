@@ -1,0 +1,90 @@
+﻿html {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: turquoise;
+    border-bottom: 3px solid turquoise;
+    font-size: 45px;
+    padding-bottom: 3px;
+}
+
+#filtering, form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filter-button {
+    padding: 5px;
+    border: 0;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 18%;
+    height: 55px;
+    font-weight: 600;
+}
+
+#searching {
+    padding-bottom: 40px;
+}
+
+#search-field {
+    width: 76%;
+    border: solid 2px red;
+    background-color: white;
+    padding-left: 15px;
+    height: 50px;
+}
+
+#search-button {
+    padding: 5px;
+    border: 0;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 20%;
+    height: 55px;
+    font-weight: 600;
+}
+
+
+h3 {
+    color: red;
+    font-size: 20px;
+}
+
+input {
+    width: 76%;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    height: 80px;
+    text-align: center;
+}
+
+#names {
+    background-color: turquoise;
+    height: 80px;
+    text-align: center;
+    font-weight: 600;
+}

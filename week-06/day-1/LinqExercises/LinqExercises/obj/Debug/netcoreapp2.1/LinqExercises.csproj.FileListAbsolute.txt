@@ -1,0 +1,11 @@
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\bin\Debug\netcoreapp2.1\LinqExercises.deps.json
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\bin\Debug\netcoreapp2.1\LinqExercises.runtimeconfig.json
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\bin\Debug\netcoreapp2.1\LinqExercises.runtimeconfig.dev.json
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\bin\Debug\netcoreapp2.1\LinqExercises.dll
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\bin\Debug\netcoreapp2.1\LinqExercises.pdb
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\obj\Debug\netcoreapp2.1\LinqExercises.csprojAssemblyReference.cache
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\obj\Debug\netcoreapp2.1\LinqExercises.csproj.CoreCompileInputs.cache
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\obj\Debug\netcoreapp2.1\LinqExercises.AssemblyInfoInputs.cache
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\obj\Debug\netcoreapp2.1\LinqExercises.AssemblyInfo.cs
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\obj\Debug\netcoreapp2.1\LinqExercises.dll
+C:\Users\Lukasz\source\repos\LinqExercises\LinqExercises\obj\Debug\netcoreapp2.1\LinqExercises.pdb

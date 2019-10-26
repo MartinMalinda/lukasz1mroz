@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Webshop</title>
+    <link rel='stylesheet' href='~/css/site.css'/>
+</head>
+<body>
+    <h2>My shop</h2>
+    <div id="filtering">
+        <form>
+            <input type="submit" id="available" name="submit" class="filter-button" value="ONLY AVAILABLE" />
+            <input type="submit" id="cheapest" name="submit" class="filter-button" value="CHEAPEST FIRST" />
+            <input type="submit" id="nike" name="submit" class="filter-button" value="CONTAINS NIKE" />
+            <input type="submit" id="expensive" name="submit" class="filter-button" value="MOST EXPENSIVE" />
+            <input type="submit" id="average" name="submit" class="filter-button" value="AVERAGE STOCK" />
+        </form>
+
+    </div>
+    <div id="searching">
+        <h3>Search for...</h3>
+        <form method="post">
+            <input type="text" id="searchString" name="searchString" placeholder="...something like nike" />
+            <input type="submit" id="search-button" name="submit" class="filter-button" value="SEARCH" />
+        </form>
+    </div>
+    @RenderBody()
+</body>
+</html>

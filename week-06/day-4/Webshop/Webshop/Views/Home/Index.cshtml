@@ -1,0 +1,20 @@
+﻿
+    <div>
+        <table>
+            <tr id="names">
+                <td>Name</td>
+                <td>Description</td>
+                <td>Price</td>
+                <td>Quantity of stock</td>
+            </tr>
+            @foreach (Shopitem item in ViewBag.Items)
+             {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.Price</td>
+                    <td>@item.QuantityOfStock</td>
+                </tr>
+             }
+         </table>
+    </div>
