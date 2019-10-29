@@ -1,0 +1,17 @@
+﻿@model BankOfSimba.Models.BankAccount
+
+<h1>Bank of Simba</h1>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Balance</td>
+        <td>Animal type</td>
+    </tr>
+    <tr>
+        <td>@Model.Name</td>
+        <td>@Model.Balance.ToString("0.00 coins")</td>
+        <td>@Model.AnimalType</td>
+    </tr>
+</table>
+

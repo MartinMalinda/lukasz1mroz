@@ -1,0 +1,33 @@
+﻿    
+    <table>
+        <tr>
+            <td>Index</td>
+            <td>Name</td>
+            <td>Balance</td>
+            <td>Animal type</td>
+            <td>Is king</td>
+            <td>Is good</td>
+        </tr>
+
+        @foreach (BankAccount animal in ViewBag.Items)
+        {
+            <tr @if (animal.IsKing) { <text>class="isKing"</text> } >
+                <td>@animal.Count</td>
+                <td>@animal.Name</td>
+                <td>@animal.Balance.ToString("0.00 coins")</td>
+                <td>@animal.AnimalType</td>
+                <td>@animal.IsKing</td>
+                <td>@(animal.IsGood ? "Good guy" : "Bad one")</td>
+            </tr>
+        }
+
+    </table>
+
+                @*@if (animal.IsKing)
+                {
+                    <td><font color="orange">@animal.Name</font></td>
+                }
+                else
+                {
+                   <td>@animal.Name</td>
+                }*@
