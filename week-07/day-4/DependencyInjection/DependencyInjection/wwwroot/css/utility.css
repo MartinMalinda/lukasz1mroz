@@ -1,0 +1,22 @@
+﻿html, body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+div
+{
+    width: 100%;
+    height: 100%;
+}
+
+#lime 
+{
+    background-color: lime;
+}
+
+#red 
+{
+    background-color: red;
+}
